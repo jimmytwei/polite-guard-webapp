@@ -1,6 +1,6 @@
 # Polite Guard Web App
 
-This repo contains code samples to run the [Intel/polite-guard](https://huggingface.co/Intel/polite-guard) SLM in a web browser. Polite Guard is a NLP model used to classify text into four categories of politeness: `polite`, `somewhat polite`, `neutral` and `impolite`. It can be integrated into existing applications to ensure that any input text satisifes the desired category (or categories) of politeness. 
+This repo contains code samples to run the [Intel/polite-guard](https://huggingface.co/Intel/polite-guard) SLM in a web browser. Polite Guard is a NLP model used to classify text into four categories of politeness: `polite`, `somewhat polite`, `neutral` and `impolite`. It can be integrated into existing applications to ensure that any input text satisifes the desired category of politeness. 
 
 There are two samples that are provided. 
 | Sample                           | Description |
