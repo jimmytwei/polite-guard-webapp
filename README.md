@@ -6,7 +6,7 @@ There are two samples that are provided.
 | Sample                           | Description |
 | -------------------------------- | ----------- |
 | [index.html](index.html)         | This sample uses the [transformers.js](https://huggingface.co/docs/transformers.js/en/index) JavaScript library and the script and model are loaded directly from Hugging Face. Pipelines are used to help simplify the code for inferencing. You can test the sample [here](https://jimmytwei.github.io/). |
-| [index-ort.html](index-ort.html) | This sample uses the [ONNX Runtime Web](https://onnxruntime.ai/docs/get-started/with-javascript/web.html) JavaScript library and demonstrates how to run the SLM locally in the browser. No data is sent over the Internet. The ONNX model, used by ORT, and a BERT tokenizer library (from tensorflow.js) are included. |
+| [index-ort.html](index-ort.html) | This sample uses the [ONNX Runtime Web](https://onnxruntime.ai/docs/get-started/with-javascript/web.html) JavaScript library and demonstrates how to run the SLM locally in the browser. No data is sent over the Internet. The ONNX model, used by ORT, and a BERT tokenizer library (from tensorflow.js) are included. Clone the entire repo and follow the instructions below to run the model locally. |
 
 Both samples use [Bootstrap](https://getbootstrap.com/) for styling and run on the CPU but can easily be modified to run on any supported device (GPU, NPU) through the appropriate settings in the corresponding JavaScript libraries. 
 
